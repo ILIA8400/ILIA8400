@@ -1,6 +1,6 @@
 ### ⚡ ILIA :
 🏠 I live in Tehran <br/>
-💻 I'm looking for a suitable job<br/>
+💻 I work in Parsan software solutions company<br/>
 🌐 I'm web developer
 
 <hr/>
