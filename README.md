@@ -1,24 +1,72 @@
-### ⚡ ILIA :
-🏠 I live in Tehran <br/>
-💻 I work in Parsan software solutions company<br/>
-🌐 I'm web developer
+# Hi there, I'm Ilia 👋
 
-<hr/>
+### .NET Developer | Software Architecture Enthusiast
 
-### 🖱️ Tech Stack :
-![.Net](https://img.shields.io/badge/.NET-5C2D91?style=flat&logo=.net&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=flat&logo=csharp&logoColor=white) ![JavaScript](https://img.shields.io/badge/Javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white) ![ASP.NET](https://img.shields.io/badge/ASP.NET-8A2BE2?style=flat&logo=ASP.NET&logoColor=white
-)
- ![MAUI](https://img.shields.io/badge/ASP.NET-8A2BE2?style=flat&logo=ASP.NET&logoColor=white
-)
-![ENTITY FRAMEWORK](https://img.shields.io/badge/ENTITY_FRAMEWORK-8A2BE2?style=flat&logo=ENTITY_FRAMEWORK&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-8A2BE2?style=flat&logo=SQL&logoColor=white) ![GIT](https://img.shields.io/badge/Git-fc6d26?style=flat&logo=Git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=Postman&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)
+I'm a backend-focused developer passionate about building scalable and maintainable applications with the Microsoft ecosystem.
 
-<hr/>
+* 💻 Working with ASP.NET Core, C# and SQL Server
+* 🏗️ Learning Software Architecture and Distributed Systems
+* 🐳 Exploring Docker and Containerization
+* 🌐 Familiar with Frontend Development (JavaScript, HTML, CSS)
+* ⚽ Football enthusiast
 
-### 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=ILIA8400&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ILIA8400&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+---
 
-<hr/>
+## 🚀 Tech Stack
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=dark)
+### Backend
+
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge\&logo=dotnet\&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge\&logo=csharp\&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge\&logo=dotnet\&logoColor=white)
+![Entity Framework Core](https://img.shields.io/badge/EF_Core-7A3E9D?style=for-the-badge)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge\&logo=microsoftsqlserver\&logoColor=white)
+
+### Frontend
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge\&logo=bootstrap\&logoColor=white)
+
+### Tools & DevOps
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge\&logo=postman\&logoColor=white)
+
+---
+
+## 📚 Currently Learning
+
+* Software Architecture
+* Domain-Driven Design (DDD)
+* Microservices
+* Design Patterns
+* Distributed Systems
+* Docker & Containerization
+
+---
+
+## 📈 GitHub Stats
+
+![](https://github-readme-stats.vercel.app/api?username=ILIA8400\&theme=tokyonight\&hide_border=true\&include_all_commits=true\&count_private=true)
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=ILIA8400\&theme=tokyonight\&hide_border=true\&layout=compact)
+
+---
+
+## 🎯 2026 Goals
+
+* Build production-ready backend systems
+* Improve software architecture decision-making skills
+* Deepen knowledge of distributed systems
+* Contribute to open-source projects
+* Master Docker and deployment workflows
+
+---
+
+## 📫 Connect With Me
+
+Feel free to explore my repositories and connect with me through GitHub.
