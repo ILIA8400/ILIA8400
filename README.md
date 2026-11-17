@@ -131,6 +131,7 @@ Areas of contribution include:
 
 ## 📫 Connect With Me
 
+- **Resume Website:** [ilia8400.github.io/ILIA8400](https://ilia8400.github.io/ILIA8400/)
 - **GitHub:** [github.com/ILIA8400](https://github.com/ILIA8400)
 - **LinkedIn:** [linkedin.com/in/iliaasgharhorri](https://linkedin.com/in/iliaasgharhorri)
 - **Email:** ilia.dev2005@gmail.com
