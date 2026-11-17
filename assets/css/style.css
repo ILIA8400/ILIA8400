@@ -539,8 +539,9 @@ main, .nav, .footer, .marquee { position: relative; z-index: 2; }
   50% { opacity: 1; transform: translateX(-50%) scaleX(0.82); }
 }
 .cube-hint {
-  font-size: 0.85rem; color: var(--muted);
+  font-size: 0.85rem; color: #b9c4e8;
   letter-spacing: 0.06em;
+  text-shadow: 0 0 14px rgba(124, 92, 255, 0.6);
   animation: hint-pulse 2.6s ease-in-out infinite;
 }
 @keyframes hint-pulse { 50% { opacity: 0.55; } }
