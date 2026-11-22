@@ -45,12 +45,28 @@
     if (m) { m.setAttribute('content', content); }
   }
 
+  /* Fill an element from a translation string; **segments** become <strong>. */
+  function fillI18n(el, v) {
+    if (v.indexOf('**') === -1) { el.textContent = v; return; }
+    el.textContent = '';
+    v.split('**').forEach(function (part, i) {
+      if (!part) { return; }
+      if (i % 2 === 1) {
+        var s = document.createElement('strong');
+        s.textContent = part;
+        el.appendChild(s);
+      } else {
+        el.appendChild(document.createTextNode(part));
+      }
+    });
+  }
+
   function applyI18n() {
     var d = dict(state.lang);
 
     $$('[data-i18n]').forEach(function (el) {
       var v = t(el.getAttribute('data-i18n'));
-      if (typeof v === 'string') { el.textContent = v; }
+      if (typeof v === 'string') { fillI18n(el, v); }
     });
     $$('[data-i18n-aria-label]').forEach(function (el) {
       var v = t(el.getAttribute('data-i18n-aria-label'));
