@@ -80,16 +80,16 @@ const translations = {
       m8: 'حقوق و دستمزد',
       m9: 'اجزای مشترک ERP',
       dutiesTitle: 'مسئولیت‌ها و مشارکت‌های فنی',
-      d1: 'توسعه قابلیت‌های کسب‌وکار و پیاده‌سازی منطق کسب‌وکار در زیرسیستم‌های مختلف ERP.',
-      d2: 'توسعه APIها، کنترلرها و سرویس‌های کاربردی مبتنی بر ASP.NET و معماری لایه‌ای.',
-      d3: 'کار با SQL Server و توسعه، نگهداری و دیباگ Stored Procedureهای پیچیده.',
-      d4: 'استفاده از Entity Framework برای توسعه و مدیریت داده‌ها.',
-      d5: 'پیاده‌سازی ارتباط بلادرنگ (Real-Time) با استفاده از فناوری‌های مبتنی بر WebSocket.',
-      d6: 'طراحی و توسعه تقویم سازمانی برای مدیریت جلسات، رویدادها و وظایف.',
-      d7: 'توسعه کامپوننت‌ها و Helperهای قابل استفاده مجدد جهت بهبود قابلیت نگهداری سیستم.',
-      d8: 'مشارکت در ماژولار کردن زیرسیستم‌ها و بهبود ساختار معماری لایه‌ای.',
-      d9: 'همکاری در فرآیند مهاجرت تدریجی سامانه از \u200E.NET Framework 4.5 به \u200E.NET 10.',
-      d10: 'بازطراحی بخش‌هایی از رابط کاربری شامل صفحه ورود، منوها و گریدهای برخی زیرسیستم‌ها.',
+      d1: 'توسعه قابلیت‌های کسب‌وکار و پیاده‌سازی **منطق کسب‌وکار** در زیرسیستم‌های مختلف **ERP**.',
+      d2: 'توسعه **APIها**، **کنترلرها** و سرویس‌های کاربردی مبتنی بر **ASP.NET** و **معماری لایه‌ای**.',
+      d3: 'کار با **SQL Server** و توسعه، نگهداری و دیباگ **Stored Procedure**های پیچیده.',
+      d4: 'استفاده از **Entity Framework** برای توسعه و مدیریت داده‌ها.',
+      d5: 'پیاده‌سازی ارتباط بلادرنگ (**Real-Time**) با استفاده از فناوری‌های مبتنی بر **WebSocket**.',
+      d6: 'طراحی و توسعه **تقویم سازمانی** برای مدیریت جلسات، رویدادها و وظایف.',
+      d7: 'توسعه **کامپوننت‌ها** و **Helper**های قابل استفاده مجدد جهت بهبود قابلیت نگهداری سیستم.',
+      d8: 'مشارکت در **ماژولار کردن** زیرسیستم‌ها و بهبود ساختار **معماری لایه‌ای**.',
+      d9: 'همکاری در فرآیند مهاجرت تدریجی سامانه از **\u200E.NET Framework 4.5** به **\u200E.NET 10**.',
+      d10: 'بازطراحی بخش‌هایی از **رابط کاربری** شامل صفحه ورود، منوها و گریدهای برخی زیرسیستم‌ها.',
       d11: 'همکاری با تیم‌های توسعه کوچک.'
     },
     projects: {
@@ -129,10 +129,18 @@ const translations = {
       college: 'دانشکده فنی و حرفه‌ای شهید شمسی‌پور',
       eduPeriod: 'مهر ۱۴۰۲ — در حال تحصیل',
       typeCourse: 'دوره آموزشی',
-      course: 'نقشه راه مهندسی نرم‌افزار',
-      provider: 'NikAmooz',
-      coursePeriod: 'مهر ۱۴۰۴ — فروردین ۱۴۰۵',
-      credential: 'شناسه گواهینامه:'
+      course: 'مسیر آموزش مهندسی نرم‌افزار',
+      provider: 'نیک‌آموز',
+      coursePeriod: 'زمان اتمام: مهر ۱۴۰۴ تا فروردین ۱۴۰۵',
+      hours: '۹۸ ساعت آموزش',
+      curriculumTitle: 'سرفصل‌های آموزشی',
+      c1title: 'طراحی دامنه‌محور (DDD)',
+      c1body: 'تحلیل و مدل‌سازی دامنه، Bounded Context، موجودیت‌ها، سرویس‌های دامنه، رویدادهای دامنه، Event Sourcing و معماری لایه‌ای.',
+      c2title: 'معماری نرم‌افزار و مدل‌سازی دامنه',
+      c2body: 'زبان مشترک (Ubiquitous Language)، مدل دامنه غنی (Rich Domain Model)، Event Storming، Domain Storytelling و الگوهای ارتباطی سیستم‌های توزیع‌شده.',
+      c3title: 'معماری میکروسرویس',
+      c3body: 'تجزیه سیستم به سرویس‌های مستقل، ارتباط بین سرویس‌ها، مدیریت داده‌ها، API Gateway، تست، استقرار، Monitoring و بررسی سلامت سرویس‌ها.',
+      credential: 'شناسه مدرک:'
     },
     contact: {
       heading: 'تماس با من',
@@ -146,8 +154,7 @@ const translations = {
     },
     footer: {
       tagline: 'توسعه‌دهنده \u200E.NET | تمرکز بر بک‌اند',
-      rights: '© {year} ایلیا اصغرحری — تمامی حقوق محفوظ است.',
-      built: 'طراحی و توسعه با HTML، CSS و JavaScript'
+      rights: '© {year} ایلیا اصغرحری — تمامی حقوق محفوظ است.'
     }
   },
 
@@ -226,16 +233,16 @@ const translations = {
       m8: 'Payroll',
       m9: 'Shared ERP components',
       dutiesTitle: 'Responsibilities & Contributions',
-      d1: 'Developing and maintaining business logic and backend functionality.',
-      d2: 'Implementing and maintaining APIs, controllers, and services.',
-      d3: 'Working with SQL Server and complex stored procedures.',
-      d4: 'Using Entity Framework for database operations.',
-      d5: 'Implementing real-time communication using WebSocket-based technologies.',
-      d6: 'Developing an organizational calendar for meetings, events, and tasks.',
-      d7: 'Creating reusable components and helper utilities.',
-      d8: 'Contributing to improved modularity and layered architecture.',
-      d9: 'Contributing to the gradual migration from .NET Framework 4.5 to .NET 10.',
-      d10: 'Participating in UI improvements and redesigns when needed.',
+      d1: 'Developing and maintaining **business logic** and backend functionality.',
+      d2: 'Implementing and maintaining **APIs**, **controllers**, and services.',
+      d3: 'Working with **SQL Server** and complex **stored procedures**.',
+      d4: 'Using **Entity Framework** for database operations.',
+      d5: 'Implementing **real-time** communication using **WebSocket**-based technologies.',
+      d6: 'Developing an **organizational calendar** for meetings, events, and tasks.',
+      d7: 'Creating **reusable components** and helper utilities.',
+      d8: 'Contributing to improved **modularity** and **layered architecture**.',
+      d9: 'Contributing to the gradual migration from **.NET Framework 4.5** to **.NET 10**.',
+      d10: 'Participating in **UI** improvements and redesigns when needed.',
       d11: 'Collaborating with small development teams.'
     },
     projects: {
@@ -277,7 +284,15 @@ const translations = {
       typeCourse: 'Course',
       course: 'The Roadmap of Software Engineering',
       provider: 'NikAmooz',
-      coursePeriod: 'Oct 2025 — Apr 2026',
+      coursePeriod: 'Completed: Mehr 1404 – Farvardin 1405',
+      hours: '98 Hours',
+      curriculumTitle: 'Curriculum',
+      c1title: 'Domain-Driven Design (DDD)',
+      c1body: 'Domain Modeling, Bounded Contexts, Entities, Domain Services, Domain Events, Event Sourcing, and Layered Architecture.',
+      c2title: 'Software Architecture & Domain Modeling',
+      c2body: 'Ubiquitous Language, Rich Domain Model, Event Storming, Domain Storytelling, and Distributed System Communication Patterns.',
+      c3title: 'Microservices Architecture',
+      c3body: 'Service Decomposition, Inter-Service Communication, Data Management, API Gateway, Microservices Testing, Deployment, Monitoring, and Health Checks.',
       credential: 'Credential ID:'
     },
     contact: {
@@ -292,8 +307,7 @@ const translations = {
     },
     footer: {
       tagline: '.NET Developer | Backend-Focused',
-      rights: '© {year} Ilia Asgharhorri — All rights reserved.',
-      built: 'Designed & built with HTML, CSS & JavaScript'
+      rights: '© {year} Ilia Asgharhorri — All rights reserved.'
     }
   }
 };
