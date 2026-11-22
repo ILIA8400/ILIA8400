@@ -83,6 +83,7 @@
     <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
     <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></symbol>
     <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></symbol>
     <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
     <symbol id="i-grad" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></symbol>
     <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></symbol>
@@ -538,24 +539,29 @@
               <span data-i18n="education.credential">شناسه مدرک:</span>
               <code dir="ltr">N906202530712</code>
             </p>
-          </article>
-          <article class="edu-card edu-curriculum card reveal-child">
-            <h4 class="xp-sub" data-i18n="education.curriculumTitle">سرفصل‌های آموزشی</h4>
-            <div class="curriculum-grid">
-              <div class="cur-item">
-                <span class="cur-num" aria-hidden="true">01</span>
-                <p class="cur-title" data-i18n="education.c1title">طراحی دامنه‌محور (DDD)</p>
-                <p class="cur-body" data-i18n="education.c1body">تحلیل و مدل‌سازی دامنه، Bounded Context، موجودیت‌ها، سرویس‌های دامنه، رویدادهای دامنه، Event Sourcing و معماری لایه‌ای.</p>
-              </div>
-              <div class="cur-item">
-                <span class="cur-num" aria-hidden="true">02</span>
-                <p class="cur-title" data-i18n="education.c2title">معماری نرم‌افزار و مدل‌سازی دامنه</p>
-                <p class="cur-body" data-i18n="education.c2body">زبان مشترک (Ubiquitous Language)، مدل دامنه غنی (Rich Domain Model)، Event Storming، Domain Storytelling و الگوهای ارتباطی سیستم‌های توزیع‌شده.</p>
-              </div>
-              <div class="cur-item">
-                <span class="cur-num" aria-hidden="true">03</span>
-                <p class="cur-title" data-i18n="education.c3title">معماری میکروسرویس</p>
-                <p class="cur-body" data-i18n="education.c3body">تجزیه سیستم به سرویس‌های مستقل، ارتباط بین سرویس‌ها، مدیریت داده‌ها، API Gateway، تست، استقرار، Monitoring و بررسی سلامت سرویس‌ها.</p>
+            <div class="cur-wrap">
+              <button type="button" class="cur-toggle" id="curriculumToggle" aria-expanded="false" aria-controls="curriculumPanel">
+                <svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg>
+                <span data-i18n="education.curriculumTitle">سرفصل‌های آموزشی</span>
+                <svg class="icon cur-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+              <div class="cur-panel" id="curriculumPanel">
+                <div class="cur-panel-inner">
+                  <div class="cur-list">
+                    <div class="cur-item">
+                      <p class="cur-head"><span class="cur-num" aria-hidden="true">01</span><span class="cur-title" data-i18n="education.c1title">طراحی دامنه‌محور (DDD)</span></p>
+                      <p class="cur-body" data-i18n="education.c1body">تحلیل و مدل‌سازی دامنه، Bounded Context، موجودیت‌ها، سرویس‌های دامنه، رویدادهای دامنه، Event Sourcing و معماری لایه‌ای.</p>
+                    </div>
+                    <div class="cur-item">
+                      <p class="cur-head"><span class="cur-num" aria-hidden="true">02</span><span class="cur-title" data-i18n="education.c2title">معماری نرم‌افزار و مدل‌سازی دامنه</span></p>
+                      <p class="cur-body" data-i18n="education.c2body">زبان مشترک (Ubiquitous Language)، مدل دامنه غنی (Rich Domain Model)، Event Storming، Domain Storytelling و الگوهای ارتباطی سیستم‌های توزیع‌شده.</p>
+                    </div>
+                    <div class="cur-item">
+                      <p class="cur-head"><span class="cur-num" aria-hidden="true">03</span><span class="cur-title" data-i18n="education.c3title">معماری میکروسرویس</span></p>
+                      <p class="cur-body" data-i18n="education.c3body">تجزیه سیستم به سرویس‌های مستقل، ارتباط بین سرویس‌ها، مدیریت داده‌ها، API Gateway، تست، استقرار، Monitoring و بررسی سلامت سرویس‌ها.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </article>
