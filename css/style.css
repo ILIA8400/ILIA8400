@@ -608,6 +608,7 @@ html[data-theme="light"] .nav-panel { background: rgba(247, 248, 250, 0.95); }
   color: var(--accent-ink);
   margin-top: 6px;
 }
+.duties strong { font-weight: 600; color: var(--text); }
 
 /* ---------- Projects ---------- */
 .projects-grid {
@@ -779,6 +780,21 @@ html[data-theme="light"] .nav-panel { background: rgba(247, 248, 250, 0.95); }
   border-radius: 6px;
   font-size: 12.5px;
 }
+.edu-curriculum { grid-column: 1 / -1; }
+.curriculum-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: 22px;
+}
+.cur-item { display: flex; flex-direction: column; gap: 8px; }
+.cur-num {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--text-3);
+  letter-spacing: var(--track);
+}
+.cur-title { font-size: 15.5px; font-weight: 700; }
+.cur-body { color: var(--text-2); font-size: 14px; line-height: 1.95; }
 
 /* ---------- Contact ---------- */
 .contact-lead {
@@ -963,6 +979,12 @@ a.contact-value:hover { color: var(--accent-ink); }
   .chip { padding: 1px 7px; font-size: 9.5px; }
   .chip-list { gap: 4px; }
   .duties li { font-size: 10.5px; line-height: 1.6; }
+  .duties strong { color: #000 !important; font-weight: 700 !important; }
+  .curriculum-grid { gap: 3mm; }
+  .cur-item { gap: 2px; }
+  .cur-num { font-size: 9px; }
+  .cur-title { font-size: 11px; }
+  .cur-body { font-size: 10px; line-height: 1.6; }
   .projects-grid, .skills-grid { gap: 3mm; }
   .project, .skill-card { padding: 3.5mm; }
   .project-desc { font-size: 10.5px; }
@@ -978,12 +1000,12 @@ a.contact-value:hover { color: var(--accent-ink); }
   .fact { padding-block: 4px; }
   .hero-name { font-size: 24px; color: #000 !important; }
   .hero-title { color: #1a3f8f !important; }
-  .hero-intro, .about-text p, .project-desc, .duties li, .edu-org, .learning-note, .contact-lead { color: #333 !important; }
+  .hero-intro, .about-text p, .project-desc, .duties li, .edu-org, .learning-note, .contact-lead, .cur-body { color: #333 !important; }
   .duties { grid-template-columns: 1fr 1fr; gap: 4px 16px; }
   .duties .icon, .stat .icon, .contact-ico, .edu-period .icon, .project-ico, .skill-ico, .edu-ico { color: #1a3f8f !important; background: none !important; }
   .stat b { color: #000 !important; }
-  .stat span, .fact dt, .contact-label, .project-num, .edu-type, .footer-built { color: #555 !important; }
-  .xp-role, .project-name, .skill-head h3, .edu-card h3, .about-facts h3 { color: #000 !important; }
+  .stat span, .fact dt, .contact-label, .project-num, .edu-type, .cur-num { color: #555 !important; }
+  .xp-role, .project-name, .skill-head h3, .edu-card h3, .about-facts h3, .cur-title { color: #000 !important; }
   .xp-company, .fact dd, .contact-value, .edu-org { color: #222 !important; }
   .chip { color: #333 !important; }
   a { color: #111 !important; }
