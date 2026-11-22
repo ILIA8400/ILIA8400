@@ -289,6 +289,18 @@
     });
   }
 
+  /* ---------------- curriculum accordion ---------------- */
+  function initCurriculum() {
+    var btn = document.getElementById('curriculumToggle');
+    var panel = document.getElementById('curriculumPanel');
+    if (!btn || !panel) { return; }
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      panel.classList.toggle('open', !open);
+    });
+  }
+
   /* ---------------- print ---------------- */
   function initPrint() {
     var btn = document.getElementById('printBtn');
@@ -316,6 +328,7 @@
     initReveal();
     initTilt();
     initCopyEmail();
+    initCurriculum();
     initPrint();
   }
 
